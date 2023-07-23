@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Heebo&family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Heebo&family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Heebo&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Roboto:wght@300;400&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image:(rgb(211, 164, 255));
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top:100px ;
+    margin-left: 400px;
+    height: 500px;
+    width:800px ;
+    border: 2px solid rgb(255, 252, 252);
+    box-shadow: 2px 2px rgb(188, 186, 186);
+    border-radius: 20px;
+}                                        
+.container-left{
+    width:450px ;
+    height: 500px;
+    background-color:rgb(248, 248, 248) ;
+    border-radius:20px ;
+    
+}
+.container-left-content{
+    margin-left:30px ;
+}
+.welcome{
+    margin-left: 10px;
+    font-weight: 300px;
+    margin-bottom: 5px;
+    color: blueviolet;
+    
+}
+.welcome-para{
+    margin-left: 10px;
+    font-weight: 300px;
+}
+.email{
+    margin-left: 10px;
+    font-weight:600; 
+    margin-top: 30px;
+    color: blueviolet;
+    font-size: 2vh;
+}
+.email input{
+    border: 2px solid rgb(226, 225, 225);
+    height: 30px;
+    border-radius: 5px;
+
+}
+.password{
+    margin-left: 10px;
+    font-weight:600; 
+    margin-top: 1vh;
+    color: blueviolet;
+    font-size: 2vh; 
+}
+.password input{
+    border: 2px solid rgb(226, 225, 225);
+    height: 30px;
+    border-radius: 5px; 
+}
+.form_mid{
+    display: flex;
+    flex-direction: row;
+}
+   
+.Remember{
+    margin-left: 10px;
+    margin-top: 1vh;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: bolder; 
+}
+.forget-password{
+    
+     font-size:13px ;
+     margin-top: 1.5vh;
+     color: blueviolet;
+     margin-left: 42px;
+     font-weight: bolder;
+     text-decoration: none;
+
+}
+.sign-in{
+    margin-top: 4vh;
+    width:323px ;
+    height: 33px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+}
+.Google-sign-in{
+    margin-top: 2vh;
+    width:323px ;
+    height: 33px;
+    background-color: #fff;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    color: #010101;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    font-size: 13px;
+}
+.signup-para{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vh;
+}
+.signup-para_content{
+ margin-left: 6.8vh;
+ margin-right: 0.3vh;
+}
+.signup{
+    font-size: 1rem;
+    text-decoration: none;
+    color: blueviolet;
+}
+.container-right{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 70px;
+}
